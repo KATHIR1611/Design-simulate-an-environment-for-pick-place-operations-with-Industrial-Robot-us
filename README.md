@@ -1,10 +1,11 @@
-# Experiment-02-Introduction-to-Roboanalyzer-
-## AIM: 
-To Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software
-### COMPONENTS REQUIRED:
+# Experiment:02 Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software
+## Aim: 
+To Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software.
+
+## Components required:
 1.	RoboDK
 
-### THEORY: 
+## Theory: 
 
  Types of pick and place robots
 There are several pick and place robot types and components, including:
@@ -24,7 +25,7 @@ Bin picking – Pick and place robots used in bin picking applications grab part
 Inspection – Pick and place robots used for inspection applications are equipped with advanced vision systems to pick up objects, detect anomalies and remove defective parts or items by placing them in a designated location.
 
 
-### PROCEDURE:
+## Procedure:
 Select a robot
 New robots can be added from a local drive or from the online library:
 
@@ -70,7 +71,7 @@ Right click the target and select Teach Current Position (Alt+double click) if a
 Right click the target and select Target Options… (F3) to open the target options window shown in the next image
 
 
-### PROGRAM 
+## Program:
  ```python
 PICKANDPLACE()
 
@@ -114,7 +115,7 @@ r.RunMessage(r"""Detach from Gripper RobotiQ 85 Opened""",True)
 r.ProgFinish(r"""PICKANDPLACE""")
 r.ProgSave(r"""C:/Users/LokiUday/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/LokiUday/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""")
 ```
-## SIMULATION
+## Simulation:
 
 ![Screenshot (98)](https://user-images.githubusercontent.com/75234588/173732290-ba488098-0c26-46dd-8741-7832ba82217d.png)
 
@@ -126,5 +127,5 @@ r.ProgSave(r"""C:/Users/LokiUday/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""
 
 ![Screenshot (102)](https://user-images.githubusercontent.com/75234588/173732698-d81bde22-be76-4bd2-80c8-9ec59d5402af.png)
 
-### RESULTS :  
+## Result:  
 Thus, an environment for pick & place operations with Industrial Robot using Robo DK software is designed and simulated.
