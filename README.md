@@ -1,4 +1,4 @@
-# Experiment:02 Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software
+# Experiment:4 Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software
 ## Aim: 
 To Design & simulate an environment for pick & place operations with Industrial Robot using Robo DK software.
 
